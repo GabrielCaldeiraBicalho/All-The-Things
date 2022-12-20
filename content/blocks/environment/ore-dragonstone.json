@@ -1,7 +1,0 @@
-{
-    "type": "OreBlock",
-    "itemDrop": "dragonstone",
-    "oreDefault": true,	
-    "oreScale": 25.87,
-    "oreThreshold": 0.87
-}
