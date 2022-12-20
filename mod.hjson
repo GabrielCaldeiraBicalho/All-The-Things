@@ -1,9 +1,5 @@
 #the mod name as displayed in-game
-<<<<<<< HEAD
 displayName: "Java Mod Template"
-=======
-displayName: "All-The-Things"
->>>>>>> 1df0b4c4a0bc46ff632251a3956a3757514e3bb8
 
 #the internal name of your mod
 name: "example-java-mod"
