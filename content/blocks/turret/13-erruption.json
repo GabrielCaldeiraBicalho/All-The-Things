@@ -1,0 +1,142 @@
+{
+    "category": "turret",
+    "type": "LiquidTurret",
+    "research": "tsunami",
+    "size": 3,
+    "range": 250,
+    "health": 1100,
+    "rotateSpeed": 2,
+    "liquidCapacity": 450,
+    "reload": 0.5,
+    "inaccuracy": 8,
+    "velocityRnd": 0.55,
+    "shootEffect": "hitMeltdown",
+    "ammoTypes": {
+        "slag": {
+            "type": "LiquidBulletType",
+            "liquid": "slag",
+            "damage": 12,
+            "speed": 9,
+            "puddleSize": 25,
+            "lifetime": 80,
+            "drag": 0.02,
+            "orbSize": 3,
+            "fragBullets": 10,
+            "fragBullet": {
+                "type": "LiquidBulletType",
+                "liquid": "slag",
+                "lifetime": 20,
+                "puddleSize": 8,
+                "orbSize": 1.5,
+                "speed": 3,
+                "damage" : 2
+            }
+        },
+        "oil": {
+            "type": "LiquidBulletType",
+            "liquid": "oil",
+            "damage": 2,
+            "speed": 9,
+            "puddleSize": 25,
+            "lifetime": 80,
+            "drag": 0.02,
+            "orbSize": 3,
+            "fragBullets": 10,
+            "fragBullet": {
+                "type": "LiquidBulletType",
+                "liquid": "oil",
+                "lifetime": 20,
+                "puddleSize": 8,
+                "orbSize": 1.5,
+                "speed": 4,
+                "damage" : 2
+            }
+        },
+        "acid": {
+            "type": "LiquidBulletType",
+            "liquid": "acid",
+            "damage": 5,
+            "speed": 9,
+            "puddleSize": 25,
+            "lifetime": 80,
+            "drag": 0.02,
+            "orbSize": 3,
+            "fragBullets": 10,
+            "fragBullet": {
+                "type": "LiquidBulletType",
+                "liquid": "acid",
+                "lifetime": 20,
+                "puddleSize": 8,
+                "orbSize": 1.5,
+                "speed": 4,
+                "damage" : 2
+            }
+        },
+        "vulcanite": {
+            "type": "LiquidBulletType",
+            "liquid": "vulcanite",
+            "damage": 25,
+            "speed": 9,
+            "puddleSize": 25,
+            "lifetime": 80,
+            "drag": 0.02,
+            "orbSize": 3,
+            "fragBullets": 10,
+            "fragBullet": {
+                "type": "LiquidBulletType",
+                "liquid": "vulcanite",
+                "lifetime": 20,
+                "puddleSize": 8,
+                "orbSize": 1.5,
+                "speed": 4,
+                "damage" : 2
+            }
+        },
+        "cryoaether": {
+            "type": "LiquidBulletType",
+            "liquid": "cryoaether",
+            "damage": 0,
+            "speed": 9,
+            "puddleSize": 25,
+            "lifetime": 80,
+            "drag": 0.02,
+            "orbSize": 3,
+            "fragBullets": 10,
+            "fragBullet": {
+                "type": "LiquidBulletType",
+                "liquid": "cryoaether",
+                "lifetime": 20,
+                "puddleSize": 8,
+                "orbSize": 1.5,
+                "speed": 4,
+                "damage" : 2
+            }
+        },
+        "water": {
+            "type": "LiquidBulletType",
+            "liquid": "water",
+            "knockback": 12,
+            "damage": 0,
+            "speed": 9,
+            "puddleSize": 25,
+            "lifetime": 80,
+            "drag": 0.02,
+            "orbSize": 3,
+            "fragBullets": 10,
+            "fragBullet": {
+                "type": "LiquidBulletType",
+                "liquid": "water",
+                "lifetime": 20,
+                "puddleSize": 8,
+                "orbSize": 1.5,
+                "speed": 4,
+                "damage" : 0
+            }
+        }
+    },
+    "requirements": [
+        "metaglass/80",
+        "graphite/120",
+        "steel/180"
+    ]
+}

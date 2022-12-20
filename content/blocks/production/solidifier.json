@@ -1,0 +1,62 @@
+{
+    "type": "GenericCrafter",
+    "category": "crafting",
+    "research": "graphite-press",
+    "size": 2,
+    "health": 650,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "itemCapacity": 10,
+    "liquidCapacity": 150,
+    "craftTime": 55,
+    "ambientSound": "smelter",
+    "ambientSoundVolume": 0.07,
+    "craftEffect": {
+        "type": "SmokeEffect",
+        "line": true,
+        "particles": 6,
+        "lifetime": 25,
+        "length": 10,
+        "cone": -360,
+        "lenFrom": 5,
+        "lenTo": 0,
+        "colorFrom": "808080FF",
+        "colorTo": "80808000"
+	},
+    "consumes": {
+        "power": 1,
+        "liquid": "slag/0.2"
+    },
+    "requirements": [
+        "graphite/15",
+        "lead/30",
+        "silicon/10"
+    ],
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "drawRegion",
+                "suffix": "-bottom"    
+            },
+            {
+                "type": "DrawLiquidRegion",
+                "drawLiquid": "slag",
+                "suffix": "-liquid" 
+            },
+            {
+                "type": "DrawRegion",
+                "suffix": "-rotator",
+                "rotateSpeed": -4,
+                "spinSprite": true
+            },
+            {
+                "type": "DrawDefault" 
+            }
+        ]
+    },
+    "outputItems": [
+        "iron/4"
+    ]
+  }

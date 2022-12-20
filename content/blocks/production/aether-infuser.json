@@ -1,0 +1,85 @@
+{
+    "type": "GenericCrafter",
+    "category": "crafting",
+    "research": "steel-forge",
+    "size": 3,
+    "hasItems": true,
+    "itemCapacity": 80,
+    "hasLiquids": true,
+    "liquidCapacity": 180,
+    "craftTime": 40,
+    "ambientSound": "smelter",
+    "craftEffect": {
+        "type": "multiEffect",
+        "effects": [ {
+                "type": "ParticleEffect",
+                "particles": 4,
+                "length": 15,
+                "lifetime": 15,
+                "interp": "circleOut",
+                "sizeInterp": "pow5In",
+                "lightColor": "59ABFFFF",
+                "colorFrom": "787878",
+                "colorTo": "59ABFFFF",
+                "sizeFrom": 4.5,
+                "sizeTo": 0
+            },
+            {
+                "type": "ParticleEffect",
+                "particles": 3,
+                "length": 20,
+                "lifetime": 20,
+                "interp": "circleOut",
+                "sizeInterp": "pow5In",
+                "lightColor": "59ABFFFF",
+                "colorFrom": "787878",
+                "colorTo": "59ABFFFF",
+                "sizeFrom": 3.5,
+                "sizeTo": 0
+            },
+            {
+                "type": "ParticleEffect",
+                "particles": 2,
+                "length": 25,
+                "lifetime": 30,
+                "interp": "circleOut",
+                "sizeInterp": "pow5In",
+                "lightColor": "59ABFFFF",
+                "colorFrom": "787878",
+                "colorTo": "59ABFFFF",
+                "sizeFrom": 2,
+                "sizeTo": 0
+            }
+        ]
+    },
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "DrawDefault"
+            },
+            {
+                "type": "DrawFlame",
+                "flameColor": "59ABFFFF"  
+            }
+        ]
+    },
+    "consumes": {
+        "power": 3,
+        "items": {
+            "items": [
+                "steel/1"
+            ]
+        },
+        "liquid": "aether/0.4"
+    },
+    "requirements": [
+        "graphite/70",
+        "lead/40",
+        "plastanium/100",
+        "silicon/80"
+    ],
+    "outputItems": [
+        "infused-aether/1"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "type": "UnitFactory",
+    "health": 615,
+    "size": 3,
+    "configurable": false,
+    "consumes": {
+        "power": 2
+    },
+    "plans": [
+        {
+            "unit": "renale",
+            "time": 720,
+            "requirements": [
+                "silicon/10",
+                "iron/5",
+                "pyratite/5"
+            ]
+        }
+    ],
+    "category": "units",
+    "requirements": [
+        "silicon/200", 
+        "steel/150"
+    ],
+    "research": "ground-factory"
+}

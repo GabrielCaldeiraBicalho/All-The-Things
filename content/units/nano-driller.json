@@ -1,0 +1,24 @@
+{
+    "type": "flying",
+    "playerControllable": false,
+    "controllable": false,
+    "defaultCommand": "mine",
+    "Controller": "MinerAI",
+    "speed": 5,
+    "itemCapacity": 75,
+    "mineTier": 6,
+    "mineSpeed": 6,
+    "health": 30,
+    "armor": 3,
+    "accel": 0.02,
+    "drag": 0.01,
+    "lowAltitude": true,
+    "flying": true,
+    "engineOffset": 5,
+    "faceTarget": false,
+    "hitSize": 5,
+    "engineSize": 2.5,
+    "isEnemy": false,
+    "weapons": [
+    ]
+}

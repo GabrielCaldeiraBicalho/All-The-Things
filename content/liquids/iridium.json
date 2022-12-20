@@ -1,0 +1,9 @@
+{
+    "name": "Iridium",
+    "description": "Statik ! That shock !",
+    "temperature": 0,
+    "viscosity": 0.0,
+    "effect": "overdrive",
+    "color": "FFF970",
+    "coolant": false
+}
