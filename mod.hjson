@@ -1,4 +1,4 @@
-#the mod name as displayed in-game
+m#the mod name as displayed in-game
 displayName: "All The Things"
 
 #the internal name of your mod
@@ -8,7 +8,7 @@ name: "all-the-things"
 author: "Mylife"
 
 #the fully qualified main class of the mod
-main: "first.allthethings"
+main: "example.ExampleJavaMod"
 
 #the mod description as seen in the mod dialog
 description: "Adiciona diversos itens.Versão: 1.0"
